@@ -1,0 +1,27 @@
+node_modules
+notas.txt
+postgres-data
+postgres-data-copy
+
+*.log
+logs
+.env
+images
+data/user.json
+
+# ejemplos didácticos de tests con vitest
+tests/examples/findOne.test.ts
+tests/examples/sum.test.ts
+
+# files
+src/config/database.ts
+src/models/user.model-copy.ts
+src/models/user.model-copy2.ts
+src/models/pet.model-copy2.ts
+docker-compose-postgre.yml
+src/config/database-copy.ts
+src/config/user.sql
+
+ desktop.ini
+Thumbs.db
+*.lnk

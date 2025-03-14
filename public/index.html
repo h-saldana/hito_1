@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://cdn.socket.io/4.8.1/socket.io.min.js" integrity="sha384-mkQ3/7FUtcGyoppY6bz/PORYoGqOl7/aSUMn2ymDOJcapfS6PHqxhRTMh1RR0Q6+" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+    <script src="/socket.io/socket.io.js"></script>
+    
+
+</head>
+<body>
+    <h2>LatinChat</h2>
+
+    <h3>Lista de usuario conectados:</h3>
+    <ul id="users">
+      
+    </ul>
+
+    <h3>Elige una sala:</h3>
+    <ul>
+      <li>
+        <button onclick="joinRoom('room1')">Room 1</button>
+        <button onclick="joinRoom('room2')">Room 2</button>
+        <button onclick="leaveRoom()">Salir de la sala</button>
+      </li>
+    </ul>
+
+    <input type="text" id="tokenInput" placeholder="Ingrese el token">
+    <button id="sendTokenButton" onclick="sendToken()">Enviar Token</button>
+    
+    <section id="chat">|
+      <ul id="chats">
+
+      </ul>
+
+    </section>
+   
+
+    <form id="form">
+        <input type="text" id="message" name="message" placeholder="ingrese su mensaje"/>
+        <button type="submit">Enviar</button>
+    </form>
+
+    
+
+    
+    <script src="app.js"></script>  
+
+</body>
+</html>
