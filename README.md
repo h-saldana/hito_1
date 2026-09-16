@@ -14,5 +14,5 @@ docker compose up --build
 ### To run the project, use the following:
 
 ```bash
-docker compose up --build
+npm run dev
 ```
