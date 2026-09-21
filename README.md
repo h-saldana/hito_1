@@ -1,5 +1,5 @@
 # API under construction
-### It is an API designed to register users. This project is constructed whit Node.js and Express, also uses docker fot it's function.
+### It is an API designed to register users. This project is constructed whit Node.js and Express, also uses docker for it's function.
 
 ## Installation
 ### - It uses PostgreSQL as the database
@@ -16,5 +16,8 @@ docker compose up --build
 ```bash
 npm run dev
 ```
+
+
+
 
 
